@@ -1,15 +1,20 @@
 {
-  "name": "trntv/yii2-starter-kit",
-  "description": "Yii2 Starter Kit Application Template",
+  "name": "davidjeddy/2016-portfolio",
+  "description": "David J Eddy 2016 Portfolio",
   "keywords": [
     "yii2",
-    "framework",
-    "start",
-    "cms",
-    "application template",
-    "yii2 advanced"
+    "yii2 advanced",
+    "cv",
+    "portfolio",
+    "resume"
   ],
   "authors": [
+      {
+      "name": "David J Eddy",
+      "email": "me@davidjeddy.com",
+      "homepage": "http://davidjeddy.net",
+      "role": "Developer"
+    },
     {
       "name": "Eugene Terentev",
       "email": "eugene@terentev.net",
@@ -18,27 +23,27 @@
     }
   ],
   "type": "project",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "support": {
-    "issues": "https://github.com/trntv/yii2-starter-kit/issues?state=open",
-    "source": "https://github.com/trntv/yii2-starter-kit"
+    "issues": "https://github.com/davidjeddy/2016-portfolio/issues?state=open",
+    "source": "https://github.com/davidjeddy/2016-portfolio"
   },
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=5.6.0",
     "ext-intl": "*",
     "yiisoft/yii2": "^2.0.6",
     "yiisoft/yii2-bootstrap": "^2.0.0",
     "yiisoft/yii2-swiftmailer": "^2.0.0",
     "yiisoft/yii2-authclient": "^2.0.0",
     "yiisoft/yii2-jui": "^2.0.0",
-    "asofter/yii2-imperavi-redactor": "dev-master@dev",
+    "asofter/yii2-imperavi-redactor": "^0.0.3",
     "mihaildev/yii2-elfinder": "^1.0",
     "trntv/yii2-aceeditor": "^2.0",
     "trntv/probe": "^0.2",
     "trntv/yii2-file-kit": "^1.0.0",
     "trntv/yii2-glide": "^1.0.0",
     "trntv/yii2-datetime-widget": "^1.0.0",
-    "trntv/cheatsheet": "^0.1@dev",
+    "trntv/cheatsheet": "^0.1",
     "trntv/yii2-command-bus": "^1.0",
     "intervention/image": "^2.1",
     "vlucas/phpdotenv": "^2.0",
