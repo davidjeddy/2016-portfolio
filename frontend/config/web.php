@@ -50,8 +50,21 @@ $config = [
             'loginUrl'=>['/user/sign-in/login'],
             'enableAutoLogin' => true,
             'as afterLogin' => 'common\behaviors\LoginTimestampBehavior'
-        ]
-    ]
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@vendor/davidjeddy/yii2-portfolio-theme/themes/orange-strings',
+                ],
+                'pathMap' => [
+                        '@frontend/views' => [
+                            '@base/vendor/davidjeddy/yii2-portfolio-theme/themes/orange-strings',
+                        ]
+                    ],
+                'baseUrl' => '@web/themes/orange-strings',
+            ],
+        ],
+    ], 
 ];
 
 if (YII_ENV_DEV) {
