@@ -61,14 +61,11 @@ $config = [
         'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@app/views' => '@vendor/davidjeddy/yii2-portfolio-theme/themes/orange-strings',
-                ],
-                'pathMap' => [
                         '@frontend/views' => [
-                            '@base/vendor/davidjeddy/yii2-portfolio-theme/themes/orange-strings',
+                            '@frontend/web/theme/'.getenv('FE_THEME'),
                         ]
                     ],
-                'baseUrl' => '@web/themes/orange-strings',
+                'baseUrl' => '@frontendUrl/theme/'.getenv('FE_THEME'),
             ],
         ],
     ], 
