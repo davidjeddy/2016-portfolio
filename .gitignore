@@ -28,3 +28,7 @@ phpunit.phar
 # Vagrant
 /.vagrant
 /vagrant.yaml
+
+# theme DIRs
+frontend/web/theme
+backend/web/theme
